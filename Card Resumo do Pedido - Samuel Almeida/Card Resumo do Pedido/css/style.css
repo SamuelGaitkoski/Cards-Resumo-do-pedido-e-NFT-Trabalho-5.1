@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(225, 231, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/pattern-background.svg);
+    background-repeat: no-repeat;
+}
+
+.img-fundo {
+    width: 100%;
+    transform: rotate(0deg);
+}
+
+.pedido {
+    width: 27%;
+    height: 80%;
+    background-color: #FFFFFF;
+    border-radius: 12px 12px 12px 12px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+.img-topo {
+    width: 100%;
+    height: 32%;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.pedido-textos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 36px;
+}
+
+.pedido h1 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-top: 27px;
+}
+
+.pPedido {
+    text-align: center;
+    font-size: 0.70rem;
+    font-weight: 400;
+    margin-top: 16px;
+    color: rgb(152, 146, 173);
+    width: 80%;
+}
+
+.plano {
+    width: 100%;
+    height: 77px;
+    background-color: rgb(245, 247, 255);
+    margin-top: 14px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.plano-textos {
+    display: flex;
+    align-items: center;
+}
+
+.plano-textos img {
+    width: 36px;
+}
+
+.plano-textos1 {
+    margin-left: 15px;
+}
+
+.plano-textos h2 {
+    font-size: 0.65rem;
+    color: #000000;
+}
+
+.plano-textos p {
+    font-size: 0.65rem;
+    color: rgb(152, 146, 173);
+}
+
+.aAlterar {
+    font-size: 0.65rem;
+    color: rgb(59, 48, 224);
+    font-weight: 900;
+    transition: 0.2s ease;
+}
+
+.aAlterar:hover {
+    text-decoration: none;
+    opacity: 60%;
+    transition: 0.2s;
+}
+
+.pedido-textos button {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(56, 41, 224);
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 0.6rem;
+    letter-spacing: 0.2px;
+    border-radius: 10px;
+    margin: 26px 0px 25px 0px;
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.2s ease;
+}
+
+.pedido-textos button:hover {
+    opacity: 60%;
+    transition: 0.2s;
+}
+
+.aCancelarPedido {
+    text-decoration: none;
+    font-size: 0.6rem;
+    font-weight: 900;
+    color: rgb(163, 154, 176);
+    transition: 0.2s ease;
+}
+
+.aCancelarPedido:hover {
+    color: rgb(65, 50, 88);
+    transition: 0.2s;
+}
+
+@media (max-width: 1150px) {  
+    .pedido {
+        width: 30%;
+    }
+
+    .pPedido {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1092px) { 
+    .pedido {
+        width: 33%;
+    }
+}
+
+@media (max-width: 1013px) { 
+    .pedido {
+        width: 36%;
+    }
+}
+
+@media (max-width: 922px) { 
+    .pedido {
+        width: 39%;
+    }
+}
+
+@media (max-width: 851px) { 
+    .pedido {
+        width: 43%;
+    }
+}
+
+@media (max-width: 784px) { 
+    .pedido {
+        width: 47%;
+    }
+}
+
+@media (max-width: 736px) { 
+    .pedido {
+        width: 51%;
+    }
+}
+
+@media (max-width: 772px) { 
+    .card {
+        width: 49%;
+    }
+}
+
+@media (max-width: 737px) { 
+    .pedido {
+        width: 53%;
+    }
+}
+
+@media (max-width: 669px) { 
+    .pedido {
+        width: 56%;
+    }
+}
+
+@media (max-width: 608px) { 
+    .pedido {
+        width: 61%;
+    }
+}
+
+@media (max-width: 565px) { 
+    .pedido {
+        width: 66%;
+    }
+}
+
+@media (max-width: 529px) { 
+    .pedido {
+        width: 70%;
+    }
+}
+
+@media (max-width: 499px) { 
+    .pedido {
+        width: 74%;
+    }
+}
+
+@media (max-width: 460px) { 
+    .pedido {
+        width: 78%;
+    }
+}   
+
+@media (max-width: 437px) { 
+    .pedido {
+        width: 80%;
+    }
+}
+
+@media (max-width: 414px) { 
+    .pedido {
+        width: 83%;
+        height: 57%;
+    }
+}
+
+
+

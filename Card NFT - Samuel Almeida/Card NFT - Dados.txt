@@ -1,0 +1,12 @@
+Nome: Samuel Gaitkoski de Almeida
+
+Trabalho 5.1 - Card NFT
+
+Projeto: Card NFT
+Autor: Samuel Gaitkoski de Almeida
+Início: 24/02/2022
+Conclusão: 02/03/2022
+Estimado: 2 horas
+Tempo: 5 horas
+Versão: 1
+Trabalho feito utilizando CSS Flexbox
